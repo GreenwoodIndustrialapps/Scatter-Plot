@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Scatter Plot</title>
+<style>
+:root {
+--blue-start: #4A90E2;
+--blue-end: #2563EB;
+--text: #1A1A1A;
+--muted: #6B7280;
+--bg: #F9FAFB;
+--card: #FFFFFF;
+--border: #E5E7EB;
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.6;
+}
+.hero {
+background: linear-gradient(135deg, var(--blue-start), var(--blue-end));
+color: white;
+padding: 60px 24px 50px;
+text-align: center;
+}
+.hero h1 {
+margin: 0 0 8px;
+font-size: 2.2rem;
+font-weight: 700;
+}
+.hero p {
+margin: 0;
+font-size: 1.05rem;
+opacity: 0.92;
+}
+.container {
+max-width: 680px;
+margin: -30px auto 60px;
+padding: 0 20px;
+}
+.card {
+background: var(--card);
+border: 1px solid var(--border);
+border-radius: 14px;
+padding: 28px 30px;
+margin-bottom: 20px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.card h2 {
+margin-top: 0;
+font-size: 1.2rem;
+}
+.card p, .card li {
+color: #333;
+}
+a.button {
+display: inline-block;
+margin-top: 10px;
+padding: 12px 22px;
+background: linear-gradient(135deg, var(--blue-start), var(--blue-end));
+color: white !important;
+text-decoration: none;
+border-radius: 10px;
+font-weight: 600;
+}
+footer {
+text-align: center;
+color: var(--muted);
+font-size: 0.9rem;
+padding-bottom: 40px;
+}
+footer a {
+color: var(--muted);
+}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>About Scatter Plot</h1>
+<p>35 years of spotting relationships in shop-floor data, built into an app.</p>
+</div>
+<div class="container">
+<div class="card">
+<h2>A career in quality</h2>
+<p>I've spent 35 years in quality, Six Sigma, and Lean within automotive manufacturing, and one question comes up again and again: is this actually related to that? A tool change and a scrap rate, a temperature and a dimension, one process step and another downstream — spotting a real relationship early, and knowing how strong it actually is, is often the difference between fixing a problem and chasing a coincidence.</p>
+</div>
+<div class="card">
+<h2>The gap</h2>
+<p>Checking that properly usually meant a spreadsheet, or software that lived on a desktop somewhere else — never quite at hand standing on the shop floor with a fresh set of readings. And with more than two variables in play, it's easy to eyeball the wrong pair and miss the relationship that actually mattered.</p>
+</div>
+<div class="card">
+<h2>Why Scatter Plot</h2>
+<p>So I built the tool I wished I'd had, as a companion to <a href="https://greenwoodindustrialapps.github.io/Process-Capability/about.html">CpK</a>. Enter up to four columns of data — by typing, speaking, or scanning a photo — and see a correlation matrix across every pair at a glance, so the relationship worth a closer look finds you rather than the other way round.</p>
+<p>From there, the app fits several curve types and picks the best one by adjusted R² rather than raw R², so a more complex curve only wins if it genuinely explains the data better, not just for having more parameters to bend with. Every result comes with its equation, R², adjusted R², and p-value, and a "Speak Data" option reads any column back to you for cross-checking against a physical sheet.</p>
+<p>Everything runs entirely on your own device — nothing you enter ever leaves your phone, which matters in a manufacturing environment as much as it does anywhere else.</p>
+</div>
+<div class="card">
+<h2>Get in touch</h2>
+<p>Questions, feedback, or just want to talk shop about correlation and curve fitting? I'd like to hear from you.</p>
+<a class="button" href="mailto:industrialapps@yahoo.com">Email Me</a>
+</div>
+</div>
+<footer>
+&copy; 2026 Scatter Plot. All rights reserved. &middot; <a href="index.html">Support</a> &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="disclaimer.html">Disclaimer</a>
+</footer>
+</body>
+</html>

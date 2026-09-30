@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scatter Support</title>
+<style>
+:root {
+--blue-start: #4A90E2;
+--blue-end: #2563EB;
+--text: #1A1A1A;
+--muted: #6B7280;
+--bg: #F9FAFB;
+--card: #FFFFFF;
+--border: #E5E7EB;
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.6;
+}
+.hero {
+background: linear-gradient(135deg, var(--blue-start), var(--blue-end));
+color: white;
+padding: 60px 24px 50px;
+text-align: center;
+}
+.hero h1 {
+margin: 0 0 8px;
+font-size: 2.2rem;
+font-weight: 700;
+}
+.hero p {
+margin: 0;
+font-size: 1.1rem;
+opacity: 0.92;
+}
+.container {
+max-width: 680px;
+margin: -30px auto 60px;
+padding: 0 20px;
+}
+.card {
+background: var(--card);
+border: 1px solid var(--border);
+border-radius: 14px;
+padding: 28px 30px;
+margin-bottom: 20px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.card h2 {
+margin-top: 0;
+font-size: 1.25rem;
+color: var(--text);
+}
+.card p, .card li {
+color: #333;
+}
+a.button {
+display: inline-block;
+margin-top: 10px;
+padding: 12px 22px;
+background: linear-gradient(135deg, var(--blue-start), var(--blue-end));
+color: white !important;
+text-decoration: none;
+border-radius: 10px;
+font-weight: 600;
+}
+.faq-item {
+margin-bottom: 18px;
+}
+.faq-item h3 {
+margin: 0 0 6px;
+font-size: 1.05rem;
+}
+footer {
+text-align: center;
+color: var(--muted);
+font-size: 0.9rem;
+padding-bottom: 40px;
+}
+footer a {
+color: var(--muted);
+}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>Scatter Support</h1>
+<p>Relationships in your data, made clear</p>
+</div>
+<div class="container">
+<div class="card">
+<h2>Contact</h2>
+<p>Have a question, found a bug, or want to request a feature? Reach out and I'll get back to you as soon as I can.</p>
+<a class="button" href="mailto:industrialapps@yahoo.com">Email Support</a>
+</div>
+<div class="card">
+<h2>About the App</h2>
+<p>Scatter Plot helps you find and quantify relationships between variables. Enter up to four columns of data, see a correlation matrix across every pair at a glance, and pick the one worth a closer look — then get a fitted curve (linear, polynomial, logarithmic, exponential, or power), its equation, and goodness-of-fit statistics (R², adjusted R², p-value).</p>
+<p>Enter data by typing, speaking, or scanning a photo, then get clear results with plain-language explanations designed for anyone from a rookie engineer to an experienced quality professional.</p>
+</div>
+<div class="card">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>What iOS version do I need?</h3>
+<p>Scatter Plot requires iOS 16 or later.</p>
+</div>
+<div class="faq-item">
+<h3>Why did my scanned numbers come out wrong?</h3>
+<p>Photo and handwriting recognition work best with printed or clearly written numbers, good lighting, and no digital zoom. For handwritten data, always double-check the recognized values before calculating.</p>
+</div>
+<div class="faq-item">
+<h3>How does the app decide the "best fit"?</h3>
+<p>Every fit type is tried, and the one with the highest adjusted R² — R² penalized for extra parameters — is marked BEST FIT. That keeps a more complex curve from winning just for being more complex; it only wins if it genuinely fits better.</p>
+</div>
+<div class="faq-item">
+<h3>Is my data stored anywhere?</h3>
+<p>No data is collected or transmitted. Everything you enter stays on your device — see the <a href="privacy.html">Privacy Policy</a> for details.</p>
+</div>
+<div class="faq-item">
+<h3>How do I request a feature or report a bug?</h3>
+<p>Email support using the button above — include your device model and iOS version if you're reporting an issue.</p>
+</div>
+</div>
+</div>
+<footer>
+&copy; 2026 Scatter Plot. All rights reserved. &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="disclaimer.html">Disclaimer</a> &middot; <a href="about.html">About</a>
+</footer>
+</body>
+</html>
